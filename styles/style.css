@@ -6,6 +6,10 @@
     width: 15rem;
 }
 
+#umaid {
+    background-color: red;
+}
+
 section {
     margin-bottom: 10px;
 }
