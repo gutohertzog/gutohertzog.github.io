@@ -4,3 +4,5 @@
 
 Some of the web searchers, but with no other parameters than the one you are looking for.
 No hidden inputs with hidden stuff.
+
+<a href="https://gutohertzog.github.io/">Free Search</a>
