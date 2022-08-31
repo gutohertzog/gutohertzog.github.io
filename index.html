@@ -10,31 +10,43 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
-<body class="container">
+<body class="container-sm">
     <header class="row text-center">
-        <h1>Buscadores dos três</h1>
+        <h1>Free Search</h1>
     </header>
     <main>
         <div class="row text-center align-items-center">
-            <section class="col">
-                <a class="btn btn-warning" href="./google/index.html">Link para o Google</a>
-            </section>
-            <section class="col">
-                <form action="https://duckduckgo.com/?" method="get">
-                    <label for="bing-search">
-                        <img class="logo-duck" src="./imgs/duckduckgo-logo.svg" alt="">
+            <section class="col-12">
+                <form action="https://www.google.com/search?" method="get">
+                    <label for="google-search">
+                        <img src="./imgs/google-logo.svg" alt="Google Logo">
                     </label>
-                    <input type="text" name="q" id="bing-search">
-                    <button type="submit">Duckduckgo Search</button>
+                    <div>
+                        <input type="text" name="q" id="google-search">
+                        <button type="submit">Google Search</button>
+                    </div>
                 </form>
             </section>
-            <section class="col">
+            <section class="col-12">
+                <form action="https://duckduckgo.com/?" method="get">
+                    <label for="bing-search">
+                        <img class="logo-duck" src="./imgs/duckduckgo-logo.svg" alt="Duckduckgo Logo">
+                    </label>
+                    <div>
+                        <input type="text" name="q" id="bing-search">
+                        <button type="submit">Duckduckgo Search</button>
+                    </div>
+                </form>
+            </section>
+            <section class="col-12">
                 <form action="https://www.bing.com/search?" method="get">
                     <label for="duck-search">
-                        <img class="logo-bing" src="./imgs/microsoft-bing-logo.png" alt="">
+                        <img class="logo-bing" src="./imgs/microsoft-bing-logo.png" alt="Bing Logo">
                     </label>
-                    <input type="text" name="q" id="duck-search">
-                    <button type="submit">Bing Search</button>
+                    <div>
+                        <input type="text" name="q" id="duck-search">
+                        <button type="submit">Bing Search</button>
+                    </div>
                 </form>
             </section>
         </div>
