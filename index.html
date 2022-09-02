@@ -17,39 +17,43 @@
     <main class="text-center">
         <section class="text-center shadow p-3 mb-5 rounded">
             <form action="https://www.google.com/search?" method="get">
-                <label for="google-search">
-                    <img class="img-fluid" src="./imgs/google-logo.svg" alt="Google Logo">
+                <label for="search-google">
+                    <img class="img-fluid logos" src="./imgs/google-logo.svg" alt="Google Logo">
                 </label>
-                <div class="input-group mb-3 justify-content-center">
-                    <input type="text" name="q" class="form-control">
-                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                <div class="text-center input-group mb-3 justify-content-center">
+                    <input id="search-google" type="text" name="q" class="form-control">
+                    <button id="btn-clr-google" class="btn btn-outline-secondary" type="button" disabled>x</button>
+                    <button id="btn-srch-google" class="btn btn-outline-secondary" type="submit" disabled>Search</button>
                 </div>
             </form>
         </section>
         <section class="text-center shadow p-3 mb-5 rounded">
             <form action="https://duckduckgo.com/?" method="get">
-                <label for="bing-search">
-                    <img class="img-fluid logo-duck" src="./imgs/duckduckgo-logo.svg" alt="Duckduckgo Logo">
+                <label for="search-duck">
+                    <img class="img-fluid logos logo-duck" src="./imgs/duckduckgo-logo.svg" alt="DuckDuckGo Logo">
                 </label>
-                <div class="input-group mb-3 justify-content-center">
-                    <input type="text" name="q" class="form-control">
-                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                <div class="text-center input-group mb-3 justify-content-center">
+                    <input id="search-duck" type="text" name="q" class="form-control">
+                    <button id="btn-clr-duck" class="btn btn-outline-secondary" type="button" disabled>x</button>
+                    <button id="btn-srch-duck" class="btn btn-outline-secondary" type="submit" disabled>Search</button>
                 </div>
             </form>
         </section>
         <section class="text-center shadow p-3 mb-5 rounded">
             <form action="https://www.bing.com/search?" method="get">
-                <label for="duck-search">
-                    <img class="img-fluid logo-bing" src="./imgs/microsoft-bing-logo.png" alt="Bing Logo">
+                <label for="search-bing">
+                    <img class="img-fluid logos logo-bing" src="./imgs/microsoft-bing-logo.png" alt="Bing Logo">
                 </label>
-                <div class="input-group mb-3 justify-content-center">
-                    <input type="text" name="q" class="form-control">
-                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                <div class="text-center input-group mb-3 justify-content-center">
+                    <input id="search-bing" type="text" name="q" class="form-control">
+                    <button id="btn-clr-bing" class="btn btn-outline-secondary" type="button" disabled>x</button>
+                    <button id="btn-srch-bing" class="btn btn-outline-secondary" type="submit" disabled>Search</button>
                 </div>
             </form>
         </section>
     </main>
     <script src="./libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./scripts/script.js"></script>
 </body>
 
 </html>
