@@ -1,8 +1,7 @@
 # gutohertzog.github.io
 
-## Free Search Project
+## Multi Search Project
 
-Some of the web searchers, but with no other parameters than the one you are looking for.
-No hidden inputs with hidden stuff.
+Just a page to group some web searches.
 
-<a href="https://gutohertzog.github.io/">Free Search</a>
+<a href="https://gutohertzog.github.io/">Multi Search</a>
